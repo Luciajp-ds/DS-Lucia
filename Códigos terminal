@@ -1,0 +1,16 @@
+Para comprobar versión de python:
+python3 --version
+
+Para cambiar de carpeta, por ejemplo, a la carpeta del bootcamp:
+cd /Users/luciajimenez/Desktop/bootcamp_data/DS-Lucia
+
+Para crear, dentro de la carpeta en la que esté, un entorno virtual de python (aparece una carpeta llamada venv que es un python nuevo)
+python3 -m venv venv
+
+Para activar ese entorno virtual, es decir, para trabajar dentro de ese python
+source venv/bin/activate
+
+Ahora que estoy dentro de ese python, instalo las dependencias que quiera
+pip install jupyter
+
+
