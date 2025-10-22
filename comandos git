@@ -1,0 +1,6 @@
+git init crea un repositorio
+git add prepara los cambios para ser validados
+git commmit valida y guarda cambios en el repositorio local
+git push sube los cambios al repositorio remoto y crea una nueva versión
+git clone copia un repositorio remoto en una versión local
+git pull descarga los cambios del repositorio remoto
