@@ -13,4 +13,20 @@ source venv/bin/activate
 Ahora que estoy dentro de ese python, instalo las dependencias que quiera
 pip install jupyter
 
+Para comprobar las librerías que ya tengo instaladas
+pip list
+
+Si tengo varias versiones de python, por ejemplo la 3.8 puedo crear un entorno virtual con ese python:
+py -3.8 -m venv venv_3_8
+Aunque en mac hay una librería para gestionar las versiones de python que se llama pyenv
+
+para salir del entorno virtual
+deactivate
+
+para crear un archivo de texto en el que se guarden las librerías de mi entorno virtual
+pip freeze > requirements.txt
+
+para instalar todas las dependencias en un nuevo entorno
+pip install -r requirements.txt
+
 
