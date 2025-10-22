@@ -29,4 +29,6 @@ pip freeze > requirements.txt
 para instalar todas las dependencias en un nuevo entorno
 pip install -r requirements.txt
 
+para saber dónde estoy en la terminal 
+pwd
 
