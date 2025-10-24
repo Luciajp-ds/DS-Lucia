@@ -11,7 +11,7 @@ Para activar ese entorno virtual, es decir, para trabajar dentro de ese python
 source venv/bin/activate
 
 Ahora que estoy dentro de ese python, instalo las dependencias que quiera
-pip install jupyter
+pip3 install jupyter
 
 Para comprobar las librerías que ya tengo instaladas
 pip list
@@ -32,3 +32,5 @@ pip install -r requirements.txt
 para saber dónde estoy en la terminal 
 pwd
 
+Para abrir un notebook, me situo en el terminal en la carpeta en la que lo quiero abrir y escribo
+jupyter notebook
